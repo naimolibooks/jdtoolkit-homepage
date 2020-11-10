@@ -1,0 +1,41 @@
+body {
+	background-color: #84ABC9;
+	color: black;
+	width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+    	font-family: 'Itim', cursive;
+}
+
+h1 {
+	font-size: 250%
+}
+
+h2 {
+	font-size: 150%
+}
+
+h3 {
+	font-size: 125%
+}
+
+p {
+	margin: 0 auto;
+	font-size: 100%
+	line-height: 1.3;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+img.logo {
+	width: 100%;
+	height: auto;
+	max-width: 40em;
+	max-height: 40em;
+	margin: 2em auto;
+}
+
+html {
+	background: #0A5794
+}
