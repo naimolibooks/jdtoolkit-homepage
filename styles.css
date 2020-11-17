@@ -1,12 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Itim');
+
+html {
+	background: #0A5794 url(background.jpg) no-repeat center fixed;
+	background-size: cover;
+	overflow-y: scroll;
+}
 body {
 	background-color: #84ABC9;
 	color: black;
 	width: 1200px;
 	margin: 0 auto;
 	text-align: center;
-    	font-family: 'Itim', cursive;
+   	font-family: 'Itim', cursive;
 }
-
+header {
+	background-color: #052B4A;
+	color: white;
+	padding: 20px;
+	font-size: 30px;
+}
+main {
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 1px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #C1D5E4;
+}
 h1 {
 	font-size: 250%
 }
@@ -18,7 +39,6 @@ h2 {
 h3 {
 	font-size: 125%
 }
-
 p {
 	margin: 0 auto;
 	font-size: 100%
@@ -36,6 +56,70 @@ img.logo {
 	margin: 2em auto;
 }
 
-html {
-	background: #0A5794
+
+footer {
+	padding: 15px;
+	background-color: #052B4A;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	clear: both;
+	margin-top: 10px;
+}
+nav {
+	text-align: center;
+	font-size: 100%;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+nav li {
+	padding: 0;
+	margin: 0;
+}
+nav a {
+	text-decoration: none;
+	padding: 5px 10px;
+	background-color: #84ABC9;
+	display: block;
+}
+nav a:link, nav a:visited {
+	color: #0A5794;
+}
+nav ul li ul li a {
+	border-left: 1px solid #0A5794;
+	border-right: 1px solid #0A5794;
+	border-bottom: 1px solid #0A5794;
+}
+nav > ul > li {
+	display: inline-block;
+	width: 150px;
+	position: relative;
+}
+nav ul li ul {
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	width: 150px;
+}
+nav ul li ul li {
+	max-height: 0;
+	overflow: hidden;
+	padding: 0;
+	transition-property: max-height;
+	transition-duration: 1s;
+}
+nav > ul > li:hover ul li {
+	overflow: visible;
+	max-height: 2.325em;
+}
+a:visited, a:link, a:active {
+    text-decoration: none;
+    color: #0A5794;
+}
+a:hover {
+	text-decoration: underline;
 }
